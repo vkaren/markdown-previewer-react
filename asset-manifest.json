@@ -1,10 +1,13 @@
 {
   "files": {
+    "main.css": "/vkaren/markdown-previewer-react/static/css/main.af640a98.css",
     "main.js": "/vkaren/markdown-previewer-react/static/js/main.61ff9eae.js",
     "index.html": "/vkaren/markdown-previewer-react/index.html",
+    "main.af640a98.css.map": "/vkaren/markdown-previewer-react/static/css/main.af640a98.css.map",
     "main.61ff9eae.js.map": "/vkaren/markdown-previewer-react/static/js/main.61ff9eae.js.map"
   },
   "entrypoints": [
+    "static/css/main.af640a98.css",
     "static/js/main.61ff9eae.js"
   ]
 }
