@@ -1,1 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background: rgb(14, 14, 14);
+  font-family: "Inconsolata", monospace;
+  color: rgb(255 255 255);
+}
+.editor-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+}
+.editor {
+  width: 40%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+}
+#editor {
+  width: 100%;
+  background: rgb(160, 160, 160);
+  margin: 0;
+  border: none;
+  outline: none;
+}
+.header-editor {
+  padding: 0.5em 2em;
+  background: rgb(107, 107, 107);
+  border-bottom: 1px solid white;
+}
 
+.preview {
+  width: 60%;
+  margin: 3em;
+  border-radius: 10px;
+  background: rgb(255 255 255);
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(240, 173, 29);
+  overflow: hidden;
+}
+#preview {
+  padding: 0 3em;
+}
+.header-preview {
+  padding: 0.5em 2em;
+  background: rgb(240, 173, 29);
+  color: rgb(34, 31, 31);
+  font-weight: bold;
+  border-bottom: 1px solid rgb(240, 173, 29);
+}
+
+@media (max-device-width: 900px) {
+  .editor {
+    width: 80%;
+  }
+  .preview {
+    width: 90%;
+  }
+}
